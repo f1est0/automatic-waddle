@@ -21,5 +21,6 @@ public class Program
 			System.out.println("Discount not available.");
 		}
 		
+		amountEnter.close();
 	}
 }
