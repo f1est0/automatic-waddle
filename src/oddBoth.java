@@ -26,5 +26,7 @@ public class oddBothMy
                } else {
                System.out.println("Odd number: " + oneArg);
                }
+	   
+	    enter.close();
     }
 }
