@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        int r = 0;
+
         Scanner sc = new Scanner(System.in);
 
         // Указываем размер массива, для этого просим ввести целое число, преобразуем в в int, присваеваем массиву.
@@ -18,10 +18,9 @@ public class Main {
             arr[ch] = i;
         }
 
-        // Выводим результат с числами и ячейков в массиве.
+        // Выводим результат с числами и ячейки в массиве.
         for (int chR = 0; chR != a; chR++){
-            System.out.println("Number from array [" + chR + "]: " + arr[r]);
-            r++;
+            System.out.println("Number from array [" + chR + "]: " + arr[chR]);
         }
     }
 }
